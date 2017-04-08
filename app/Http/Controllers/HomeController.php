@@ -46,7 +46,7 @@ class HomeController extends Controller
 
         }
 
-        return ['redirect' => route('admin')];
+        return ['redirect' => route('admin'), 'data' => $credentials];
     }
 
 

@@ -23,7 +23,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.0/axios.min.js"></script>
 </head>
-<body>
+<body class="login_wrap">
 <div class="container">
     <div class="wrap">
         <h2 class="text-center">HANGRY</h2>

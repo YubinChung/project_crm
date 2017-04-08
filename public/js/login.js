@@ -26,6 +26,15 @@ new Vue({
                 console.log(response);
 
             });
+
+            axios.get('/admin', this.$data)
+                .then(function(){
+                    this.user_id = response.data.user_id;
+                });
+
+
+
+
         },
 
     }
