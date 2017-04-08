@@ -31,7 +31,7 @@ class HomeController extends Controller
             'password' => 'required'
         ], [
             'user_id.required' => '아이디를 입력해 주세요.',
-            'password.required' => '패스워드를 입력해 주세요.',
+            'password.required' => '패스워드를 입력해 주세요. ',
         ]);
 
         if ($validator->fails()) {
